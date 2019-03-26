@@ -42,7 +42,7 @@ def full?(board)
   end
 end
 
-def turn_count(board)
+def turn_count(@board)
   counter = 0
   board.each do |cell|
     if cell == "X"|| cell == "O"
